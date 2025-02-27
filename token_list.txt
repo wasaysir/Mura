@@ -1,0 +1,26 @@
+RULES
+"(" return LPAREN
+")" return RPAREN
+"--" return STRIKETHROUGH
+"`" return MULTILINECOMMENT
+"+" return ADD
+"-" return MINUS
+"::" return LINK
+"\\" return ASIDE
+"===" return DIVIDER
+"title:" return TITLE
+"caption:" return CAPTION
+"tags:" return TAGS
+"thumbnail:" return THUMBNAIL
+"source:" return SOURCE
+"heading" return HEADING
+"bgAudio:" return BGAUDIO
+"codeblock:" return CODEBLOCK
+"list:" return List
+"@" return END
+"poll:" return POLL
+"quote:" return QUOTE
+"equation:" return EQUATION
+"custComponent" return CUSTOMCOMPONENT
+. return CONTENT
+

@@ -1,0 +1,55 @@
+title:<text>
+caption:<stylized text>
+tags:<tag>
+thumbnail:<img source>
+
+source:<source>
+
+<source> | <music (spotify/soundcloud/youtube)>
+	 | <video>
+	 | <film (letterboxd)>
+	 | <podcast (youtube/spotify)>
+	 | <substack article>
+	 | <news>
+	 | <generic website>
+
+backgroundAudio: | <music (spotify/soundcloud/youtube)>
+		 | <audio file>
+
+=== `This creates a divider`
+
+` Comments are included like this
+and are multiline
+`
+
+a text with ::Links::(text) and --strikethrough which is automatically created in drafts and then viewed like a wayback-like scrub--.
+
+Here is an example of an annotation ;;I put an annotation here;;. An annotation will show on the right side, or it can be an asterisk that you can hover over.
+
+heading(1): 1 means it's at the highest level
+heading(2):
+heading(3, A): 3 Means it's the third depth. A means it's anchored, so you can create a link to that heading.
+
+image:<img source>
+
+codeblock:
+
+@ `(Note that the immediate letters after @ are optional, i could write @codeblock, or @func1, or whatever, in order to make it easier for me)`
+
+list:
++ Use plus sign to include a new item. (+) implies ordered bullet
+>+ Use > to imply moving into a deeper level
+<+ To imply going up a shallower level
+- (-) implies unordered Bullet
+@list
+
+poll:<pollType>
+
+pollType: | Multiple Choice
+	  | Likert Scale/Slider
+
+customComponent:
+
+quote:
+
+equation:
