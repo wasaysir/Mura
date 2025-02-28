@@ -1,3 +1,4 @@
+# MURA
 Wasay's custom BLOGGING LANGUAGE
 
 The goal is to create a more powerful markup language that leverages the barebones simplicity of something like markdown but with the potential flexibility to include more powerful web-features. A langauge that is truly a web-forward language. 
