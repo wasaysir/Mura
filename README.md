@@ -12,3 +12,6 @@ Process:
 2. Lexer is called on blog and breaks it into tokens
 3. Parser generates a parse-tree
 4. Assembler converts parse tree into React code
+
+Inspo:
+https://automerge.org/docs/quickstart/
