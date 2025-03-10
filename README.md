@@ -15,3 +15,4 @@ Process:
 
 Inspo:
 https://automerge.org/docs/quickstart/
+https://readwise.io/
